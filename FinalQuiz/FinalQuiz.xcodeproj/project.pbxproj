@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C478B4AD292832E80053B01E /* TelaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478B4AC292832E80053B01E /* TelaInicial.swift */; };
+		C478B4AF292837D20053B01E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478B4AE292837D20053B01E /* Instruction.swift */; };
+		C478B4B229283C9D0053B01E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478B4B129283C9D0053B01E /* QuizViewController.swift */; };
 		C4A5845E291D9CA900497E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5845D291D9CA900497E37 /* AppDelegate.swift */; };
 		C4A58460291D9CA900497E37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5845F291D9CA900497E37 /* SceneDelegate.swift */; };
-		C4A58462291D9CA900497E37 /* TelaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A58461291D9CA900497E37 /* TelaInicial.swift */; };
 		C4A58465291D9CA900497E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A58463291D9CA900497E37 /* Main.storyboard */; };
 		C4A58467291D9CAA00497E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A58466291D9CAA00497E37 /* Assets.xcassets */; };
 		C4A5846A291D9CAA00497E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A58468291D9CAA00497E37 /* LaunchScreen.storyboard */; };
 		C4A58477291DA02C00497E37 /* Gerenciador.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A58476291DA02C00497E37 /* Gerenciador.swift */; };
 		C4A58479291DA03600497E37 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A58478291DA03600497E37 /* Model.swift */; };
-		C4A5847D291DA0B200497E37 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5847C291DA0B200497E37 /* QuizViewController.swift */; };
 		C4A5847F291DAAB200497E37 /* TelaDeVitoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5847E291DAAB200497E37 /* TelaDeVitoria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C478B4AC292832E80053B01E /* TelaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicial.swift; sourceTree = "<group>"; };
+		C478B4AE292837D20053B01E /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		C478B4B129283C9D0053B01E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C4A5845A291D9CA900497E37 /* FinalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A5845D291D9CA900497E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A5845F291D9CA900497E37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4A58461291D9CA900497E37 /* TelaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicial.swift; sourceTree = "<group>"; };
 		C4A58464291D9CA900497E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4A58466291D9CAA00497E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A58469291D9CAA00497E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A5846B291D9CAA00497E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A58476291DA02C00497E37 /* Gerenciador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerenciador.swift; sourceTree = "<group>"; };
 		C4A58478291DA03600497E37 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		C4A5847C291DA0B200497E37 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C4A5847E291DAAB200497E37 /* TelaDeVitoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeVitoria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,9 +89,10 @@
 		C4A58472291D9D3000497E37 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C4A58461291D9CA900497E37 /* TelaInicial.swift */,
-				C4A5847C291DA0B200497E37 /* QuizViewController.swift */,
+				C478B4AC292832E80053B01E /* TelaInicial.swift */,
 				C4A5847E291DAAB200497E37 /* TelaDeVitoria.swift */,
+				C478B4AE292837D20053B01E /* Instruction.swift */,
+				C478B4B129283C9D0053B01E /* QuizViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,12 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A58477291DA02C00497E37 /* Gerenciador.swift in Sources */,
-				C4A58462291D9CA900497E37 /* TelaInicial.swift in Sources */,
 				C4A58479291DA03600497E37 /* Model.swift in Sources */,
 				C4A5847F291DAAB200497E37 /* TelaDeVitoria.swift in Sources */,
-				C4A5847D291DA0B200497E37 /* QuizViewController.swift in Sources */,
+				C478B4B229283C9D0053B01E /* QuizViewController.swift in Sources */,
 				C4A5845E291D9CA900497E37 /* AppDelegate.swift in Sources */,
 				C4A58460291D9CA900497E37 /* SceneDelegate.swift in Sources */,
+				C478B4AF292837D20053B01E /* Instruction.swift in Sources */,
+				C478B4AD292832E80053B01E /* TelaInicial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

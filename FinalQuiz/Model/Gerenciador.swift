@@ -3,11 +3,11 @@ import Foundation
 class ManagerQuiz{
 
     // Montagem das 100 Perguntas
-    var quizes: [Quiz] = [Quiz(question: <#T##String#>, opcoes: <#T##[String]#>, respostaCorrect: <#T##Int#>)]
+    var quizes: [Quiz] = [Quiz(question: "Eu sou a lenda?", opcoes: ["Sim", "Não", "Talvez", "éeee"], respostaCorrect: 0)]
     
     
     
-    var contador = -1
+    var contador = 0
     func reloadQuiz() -> Quiz{
         contador = contador + 1
         return quizes[contador]
