@@ -9,15 +9,18 @@ import UIKit
 
 class QuizViewController: UIViewController {
     @IBOutlet weak var lbQuestion: UILabel!
-    
+    @IBOutlet weak var medidor: UIImageView!
     var manager = ManagerQuiz()
     var quiz:Quiz!
     @IBOutlet var opcoes: [UIButton]!
+    @IBOutlet weak var TeladeDerrota: UIView!
+    
+    var derrota = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         reloadQuiz()
+        TeladeDerrota.isHidden = true
         
     }
     @IBAction func btOptions(_ sender: Any) {
@@ -25,13 +28,14 @@ class QuizViewController: UIViewController {
         if manager.checkAnswer(index: index){
             reloadQuiz()
         }else{
-            reloadQuiz()
+            TeladeDerrota.isHidden = false
         }
     }
     func reloadQuiz(){
         if manager.contador+1 < manager.quizes.count{
             quiz = manager.reloadQuiz()
             lbQuestion.text = "\(quiz.question)"
+            checkImage()
             for i in 0...3{
                 opcoes[i].setTitle(quiz.opcoes[i], for: .normal)
             }
@@ -39,7 +43,22 @@ class QuizViewController: UIViewController {
             performSegue(withIdentifier: "segueResult", sender: nil)
         }
     }
+    @IBAction func btVoltarDerrota(_ sender: Any) {
+        derrota = true
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        let QUIZ = segue.destination as! TelaDeVitoria
+        if !derrota{
+            let QUIZ = segue.destination as! TelaDeVitoria
+        }
+        
 }
+    func checkImage(){
+        if quiz.dificuldade == 0{
+            medidor.image = UIImage(named: "fácil")
+        }else if quiz.dificuldade == 1{
+            medidor.image = UIImage(named: "médio")
+        }else if quiz.dificuldade == 2{
+            medidor.image = UIImage(named: "difícil")
+        }
+    }
 }

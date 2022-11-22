@@ -8,16 +8,19 @@
 import UIKit
 
 class TelaInicial: UIViewController {
+    @IBOutlet weak var Vitória: UIImageView!
     var manager = ManagerQuiz()
     let MAIN = UIStoryboard(name: "Main", bundle: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Vitória.isHidden = true
         
     }
     // Segue para a Tela de Jogo
     @IBAction func btIniciar(_ sender: Any) {
         let INICIAR: QuizViewController = MAIN.instantiateViewController(withIdentifier: "Quiz") as! QuizViewController
+        manager.contador = -1
         INICIAR.manager = manager
         self.present(INICIAR, animated: true, completion: nil)
         performSegue(withIdentifier: "segueQuiz", sender: nil)

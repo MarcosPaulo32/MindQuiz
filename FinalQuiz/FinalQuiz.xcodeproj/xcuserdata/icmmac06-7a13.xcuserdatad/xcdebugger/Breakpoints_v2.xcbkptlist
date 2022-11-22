@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "081261C5-5F67-4E48-9FD7-24507176C8BF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5A52331-917E-489F-8578-74432AA06A92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controller/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "QuizViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - c74c0886c8097328"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.opcoes.getter : Swift.Optional&lt;Swift.Array&lt;__C.UIButton&gt;&gt;"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - 92559fa5e2372f24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.opcoes.setter : Swift.Optional&lt;Swift.Array&lt;__C.UIButton&gt;&gt;"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - 572960ba4aa7fe17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.opcoes.modify : Swift.Optional&lt;Swift.Array&lt;__C.UIButton&gt;&gt;"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - 90a1ce3f30dc62a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.opcoes.modify : Swift.Optional&lt;Swift.Array&lt;__C.UIButton&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - 317cb2cd7b9f8904"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FinalQuiz.QuizViewController"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "F5A52331-917E-489F-8578-74432AA06A92 - f96b6ca06605895b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalQuiz.QuizViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FinalQuiz.QuizViewController&gt;"
+                  moduleName = "FinalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac06-7a13/Desktop/AdvancedMarco/FinalQuiz/Controller/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
