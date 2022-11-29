@@ -10,11 +10,13 @@ import UIKit
 class QuizViewController: UIViewController {
     @IBOutlet weak var lbQuestion: UILabel!
     @IBOutlet weak var medidor: UIImageView!
+    @IBOutlet weak var btQuestion: UIButton! 
     var manager = ManagerQuiz()
     var quiz:Quiz!
     @IBOutlet var opcoes: [UIButton]!
     @IBOutlet weak var TeladeDerrota: UIView!
     
+    var countingQt = 0
     var derrota = false
     
     override func viewDidLoad() {
@@ -35,6 +37,8 @@ class QuizViewController: UIViewController {
         if manager.contador+1 < manager.quizes.count{
             quiz = manager.reloadQuiz()
             lbQuestion.text = "\(quiz.question)"
+            countingQt = countingQt+1
+            btQuestion.text = "\(countingQt)"
             checkImage()
             for i in 0...3{
                 opcoes[i].setTitle(quiz.opcoes[i], for: .normal)
