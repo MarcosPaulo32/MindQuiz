@@ -10,7 +10,7 @@ import UIKit
 class QuizViewController: UIViewController {
     @IBOutlet weak var lbQuestion: UILabel!
     @IBOutlet weak var medidor: UIImageView!
-    @IBOutlet weak var btQuestion: UIButton! 
+    @IBOutlet weak var lbQuestion2: UILabel!
     var manager = ManagerQuiz()
     var quiz:Quiz!
     @IBOutlet var opcoes: [UIButton]!
@@ -38,7 +38,7 @@ class QuizViewController: UIViewController {
             quiz = manager.reloadQuiz()
             lbQuestion.text = "\(quiz.question)"
             countingQt = countingQt+1
-            btQuestion.text = "\(countingQt)"
+            lbQuestion2.text = "\(countingQt)"
             checkImage()
             for i in 0...3{
                 opcoes[i].setTitle(quiz.opcoes[i], for: .normal)
