@@ -33,5 +33,14 @@ class TelaInicial: UIViewController {
         performSegue(withIdentifier: "segueInstructions", sender: nil)
     }
     @IBAction func returnMainView(voltar: UIStoryboardSegue){}
-    
+    @IBAction func Dark(_ sender: Any) {
+        let window = UIApplication.shared.keyWindow
+        window?.overrideUserInterfaceStyle = .dark
+    }
+    @IBAction func Light(_ sender: Any) {
+        let window = UIApplication.shared.keyWindow
+        window?.overrideUserInterfaceStyle = .light
+    }
 }
+
+
