@@ -18,8 +18,10 @@ com mais de 50 perguntas com o objetivo de chegar até o final do jogo.
 - Tela Inicial (Iniciar + Instruções + Tela de Derrota)
 - 🏆👀 
 ```
-# Screenshots do Jogo
-(...)
+# Screenshots do Jogo!
+
+![Tela Inicial do Jogo](https://user-images.githubusercontent.com/110940455/205376043-e2413b38-be5b-4242-9e79-ed2410e736de.png) ![Instruções](https://user-images.githubusercontent.com/110940455/205376193-8b5d011a-6ae2-4d56-aac3-b85705688204.png) ![Vitória](https://user-images.githubusercontent.com/110940455/205376369-09f389e9-046d-42fa-a82b-38c29df35a6b.png)
+
 
 ## Ferramentas usadas para o desenvolvimento do App
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)<br>![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white) 
@@ -27,5 +29,5 @@ com mais de 50 perguntas com o objetivo de chegar até o final do jogo.
 #
 <h1 align="center"> 👩‍💻 Responsáveis pelo Projeto 👨‍💻 </h1>
 
-| [<img src="https://user-images.githubusercontent.com/110940455/204394843-696cb0b9-9a3c-49fd-bf9c-45c45920d81f.png" width=115><br><sub>Marcos Paulo</sub>](https://github.com/MarcosPaulo32) |  <img src="" width=115><br><sub>Ícaro Sargado</sub> |  <img src="" width=115><br><sub>Pedro</sub>     |
+| [<img src="https://user-images.githubusercontent.com/110940455/204394843-696cb0b9-9a3c-49fd-bf9c-45c45920d81f.png" width=115><br><sub>Marcos Paulo</sub>](https://github.com/MarcosPaulo32) |  [<img src="https://user-images.githubusercontent.com/110940455/205376856-b157fad9-a5aa-4c49-9101-093df68a379e.png" width=115><br><sub>Pedro</sub>](https://github.com/Pedroulas) |  <img src="" width=115><br><sub>ícaro Sargado</sub>     |
 | :---: | :---: | :---: |
