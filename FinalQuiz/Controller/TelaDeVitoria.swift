@@ -8,13 +8,13 @@
 import UIKit
 
 class TelaDeVitoria: UIViewController {
-
+    var manager = ManagerQuiz()
+    let config = Configuration.shared
+    var Counter = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        config.wincondition = Counter
+        print(config.wincondition)
     }
-    
-
-
 }

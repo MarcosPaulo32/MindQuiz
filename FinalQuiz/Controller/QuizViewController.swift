@@ -50,9 +50,12 @@ class QuizViewController: UIViewController {
     @IBAction func btVoltarDerrota(_ sender: Any) {
         derrota = true
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         if !derrota{
             let QUIZ = segue.destination as! TelaDeVitoria
+            //seta 0
+            QUIZ.Counter = 1
         }
         
 }

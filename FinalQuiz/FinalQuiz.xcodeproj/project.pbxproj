@@ -18,6 +18,7 @@
 		C4A58477291DA02C00497E37 /* Gerenciador.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A58476291DA02C00497E37 /* Gerenciador.swift */; };
 		C4A58479291DA03600497E37 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A58478291DA03600497E37 /* Model.swift */; };
 		C4A5847F291DAAB200497E37 /* TelaDeVitoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5847E291DAAB200497E37 /* TelaDeVitoria.swift */; };
+		E43D4961293A6A9F002C9F80 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43D4960293A6A9F002C9F80 /* Dados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C4A58476291DA02C00497E37 /* Gerenciador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerenciador.swift; sourceTree = "<group>"; };
 		C4A58478291DA03600497E37 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C4A5847E291DAAB200497E37 /* TelaDeVitoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeVitoria.swift; sourceTree = "<group>"; };
+		E43D4960293A6A9F002C9F80 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				C4A58476291DA02C00497E37 /* Gerenciador.swift */,
 				C4A58478291DA03600497E37 /* Model.swift */,
+				E43D4960293A6A9F002C9F80 /* Dados.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				C4A58479291DA03600497E37 /* Model.swift in Sources */,
 				C4A5847F291DAAB200497E37 /* TelaDeVitoria.swift in Sources */,
 				C478B4B229283C9D0053B01E /* QuizViewController.swift in Sources */,
+				E43D4961293A6A9F002C9F80 /* Dados.swift in Sources */,
 				C4A5845E291D9CA900497E37 /* AppDelegate.swift in Sources */,
 				C4A58460291D9CA900497E37 /* SceneDelegate.swift in Sources */,
 				C478B4AF292837D20053B01E /* Instruction.swift in Sources */,

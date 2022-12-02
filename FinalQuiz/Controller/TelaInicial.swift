@@ -9,12 +9,20 @@ import UIKit
 
 class TelaInicial: UIViewController {
     @IBOutlet weak var Vitória: UIImageView!
+    let config = Configuration.shared
     var manager = ManagerQuiz()
+    var Condition = TelaDeVitoria()
     let MAIN = UIStoryboard(name: "Main", bundle: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         Vitória.isHidden = true
+        if config.wincondition == 1 {
+            Vitória.isHidden = false
+        }else {
+            Vitória.isHidden = true
+        }
         
     }
     // Segue para a Tela de Jogo
@@ -32,15 +40,17 @@ class TelaInicial: UIViewController {
         self.present(INSTRUÇÃO, animated: true, completion: nil)
         performSegue(withIdentifier: "segueInstructions", sender: nil)
     }
-    @IBAction func returnMainView(voltar: UIStoryboardSegue){}
-    @IBAction func Dark(_ sender: Any) {
-        let window = UIApplication.shared.keyWindow
-        window?.overrideUserInterfaceStyle = .dark
+    @IBAction func returnMainView(voltar: UIStoryboardSegue){
+        if config.wincondition == 1 {
+            Vitória.isHidden = false
+        }else {
+            Vitória.isHidden = true
+        }
     }
-    @IBAction func Light(_ sender: Any) {
-        let window = UIApplication.shared.keyWindow
-        window?.overrideUserInterfaceStyle = .light
-    }
+    @IBAction func returnMainViewInstruction(voltando: UIStoryboardSegue){}
 }
+
+
+
 
 

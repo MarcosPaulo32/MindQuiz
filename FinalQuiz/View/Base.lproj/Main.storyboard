@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="TelaInicial" customModule="FinalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIND QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpC-We-oLR">
-                                <rect key="frame" x="247" y="20" width="173" height="39"/>
+                                <rect key="frame" x="506" y="20" width="354" height="106.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-JY-WIp">
-                                <rect key="frame" x="264" y="257" width="139" height="42"/>
+                                <rect key="frame" x="540.5" y="581.5" width="285" height="114.5"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="Iniciar"/>
                                 <connections>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BL-Fj-PfM">
-                                <rect key="frame" x="264" y="313" width="139" height="42"/>
+                                <rect key="frame" x="540.5" y="710" width="285" height="115"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="instruções"/>
                                 <connections>
@@ -39,10 +39,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="ícone" translatesAutoresizingMaskIntoConstraints="NO" id="cNu-vU-G9I">
-                                <rect key="frame" x="214.5" y="83" width="238" height="148.5"/>
+                                <rect key="frame" x="439.5" y="150.5" width="487" height="405.5"/>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Troféu" translatesAutoresizingMaskIntoConstraints="NO" id="V9x-f1-9u6">
-                                <rect key="frame" x="528" y="20" width="119" height="109"/>
+                                <rect key="frame" x="1102.5" y="44" width="243.5" height="297.5"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,14 +86,14 @@
             <objects>
                 <viewController storyboardIdentifier="Quiz" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7vK-jn-lh6" customClass="QuizViewController" customModule="FinalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jJb-Tl-JU6">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIe-hd-CgF">
-                                <rect key="frame" x="88.5" y="94" width="490" height="187.5"/>
+                                <rect key="frame" x="181" y="246" width="1004" height="512"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzn-uG-I91">
-                                        <rect key="frame" x="41" y="109" width="175" height="49"/>
+                                        <rect key="frame" x="41" y="366" width="347" height="116.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" backgroundImage="Model_Answers">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -103,7 +103,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePQ-NS-2BM">
-                                        <rect key="frame" x="291" y="40" width="175" height="49"/>
+                                        <rect key="frame" x="633" y="40" width="347" height="116.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" backgroundImage="Model_Answers">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -113,7 +113,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejt-Af-1ej">
-                                        <rect key="frame" x="41" y="40" width="175" height="49"/>
+                                        <rect key="frame" x="41" y="40" width="347" height="116.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" backgroundImage="Model_Answers">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -123,7 +123,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCF-uK-R0W">
-                                        <rect key="frame" x="291" y="109" width="175" height="49"/>
+                                        <rect key="frame" x="633" y="366" width="347" height="116.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" backgroundImage="Model_Answers">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -154,7 +154,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MK-JF-Bpf">
-                                <rect key="frame" x="100" y="30" width="467" height="56"/>
+                                <rect key="frame" x="205" y="30" width="956" height="121"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -163,25 +163,25 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Model_Quest" translatesAutoresizingMaskIntoConstraints="NO" id="FjV-ve-HSK">
-                                <rect key="frame" x="20" y="30" width="63" height="48"/>
+                                <rect key="frame" x="20" y="30" width="172" height="131"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="FjV-ve-HSK" secondAttribute="height" multiplier="21:16" id="XVY-t1-i2L"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avu-z2-Vpx">
-                                <rect key="frame" x="35.5" y="38.5" width="32" height="31"/>
+                                <rect key="frame" x="62.5" y="53" width="87" height="85"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fácil" translatesAutoresizingMaskIntoConstraints="NO" id="w0w-LP-fom">
-                                <rect key="frame" x="572" y="30" width="75" height="48"/>
+                                <rect key="frame" x="1192.5" y="30" width="153.5" height="131"/>
                             </imageView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azQ-Xb-1Ux" userLabel="TeladeDerrota">
-                                <rect key="frame" x="3" y="1" width="661" height="376"/>
+                                <rect key="frame" x="3" y="1" width="1360" height="1005"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZM-Hb-8Vt">
-                                        <rect key="frame" x="205.5" y="293" width="250" height="55"/>
+                                        <rect key="frame" x="423" y="830" width="514" height="147"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="voltar_variant(red)"/>
                                         <connections>
@@ -190,7 +190,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lose" translatesAutoresizingMaskIntoConstraints="NO" id="1fV-P7-Dy7">
-                                        <rect key="frame" x="38" y="8" width="585" height="239"/>
+                                        <rect key="frame" x="38" y="8" width="1284" height="776"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -257,18 +257,18 @@
             <objects>
                 <viewController storyboardIdentifier="Victory" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="J3T-Dd-GPk" customClass="TelaDeVitoria" customModule="FinalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mue-Pt-dz9">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Victory" translatesAutoresizingMaskIntoConstraints="NO" id="GUI-vk-B60">
-                                <rect key="frame" x="41" y="47" width="585" height="221"/>
+                                <rect key="frame" x="41" y="47" width="1284" height="755"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LI-H9-tzD">
-                                <rect key="frame" x="208.5" y="300" width="250" height="55"/>
+                                <rect key="frame" x="427" y="834" width="512" height="150"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="voltar"/>
                                 <connections>
-                                    <segue destination="tqd-9d-AGY" kind="unwind" unwindAction="returnMainViewWithVoltar:" id="U6V-6Z-E29"/>
+                                    <segue destination="tqd-9d-AGY" kind="unwind" unwindAction="returnMainViewWithVoltar:" id="VFi-4R-6rj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -297,22 +297,22 @@
             <objects>
                 <viewController storyboardIdentifier="Instructions" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hEu-nK-h8d" customClass="Instruction" customModule="FinalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HFN-k2-XtF">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instruction" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgl-89-Clq">
-                                <rect key="frame" x="20" y="73" width="627" height="205"/>
+                                <rect key="frame" x="20" y="73" width="1326" height="761.5"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="976-Us-WIJ">
-                                <rect key="frame" x="251" y="313" width="165" height="42"/>
+                                <rect key="frame" x="514" y="869.5" width="338" height="114.5"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="voltar"/>
                                 <connections>
-                                    <segue destination="tet-Pi-JG3" kind="unwind" unwindAction="returnMainViewWithVoltar:" id="IcI-a2-Ou8"/>
+                                    <segue destination="tet-Pi-JG3" kind="unwind" unwindAction="returnMainViewInstructionWithVoltando:" id="Pn3-BB-1Ji"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fácil" translatesAutoresizingMaskIntoConstraints="NO" id="SRM-dt-oiU">
-                                <rect key="frame" x="590" y="9" width="57" height="45"/>
+                                <rect key="frame" x="1196" y="9" width="150" height="158"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lr6-7t-uSy"/>

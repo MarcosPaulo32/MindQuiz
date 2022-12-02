@@ -38,7 +38,7 @@ class ManagerQuiz{
                           Quiz(question: "Qual destes países é transcontinental?" , opcoes: ["Rússia", "Filipinas", "Groenlândia", "Marrocos"], respostaCorrect: 0, dificuldade: 2),
                           Quiz(question: "Quem é o autor de “O Príncipe”?" , opcoes: ["Montesquieu", "Rousseau", "Maquiavel", "Thomas Hobbes"], respostaCorrect: 2, dificuldade: 1),
                           Quiz(question: "It is six twenty ou twenty past six. Que horas são em inglês?" , opcoes: ["2:20", "12:20", "6:00", "6:20"], respostaCorrect: 3, dificuldade: 1),
-                          Quiz(question: "Qual ds modelos atômicos é conhecido como Pudim de Passas" , opcoes: ["Thomson", "Dalton", "Rutherford", "Bohr"], respostaCorrect: 0, dificuldade: 1),
+                          Quiz(question: "Qual dos modelos atômicos é conhecido como Pudim de Passas" , opcoes: ["Thomson", "Dalton", "Rutherford", "Bohr"], respostaCorrect: 0, dificuldade: 1),
                           Quiz(question: "Quem pintou Guernica?" , opcoes: ["Paul Cézanne", "Tarsila do Amaral", "Pablo Picasso", "Diego Rivera"], respostaCorrect: 2, dificuldade: 2),
                           Quiz(question: "Quais das datas são comemoradas em Novembro?" , opcoes: ["Independência do Brasil", "Consciência Negra", "Dia de Finados", "Black Friday"], respostaCorrect: 1, dificuldade: 1),
                           Quiz(question: "Qual o número mínimo de jogadores em cada time numa partida de futebol?" , opcoes: ["9", "5", "7", "8"], respostaCorrect: 2, dificuldade: 1),
