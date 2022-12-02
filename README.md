@@ -15,8 +15,7 @@ com mais de 50 perguntas com o objetivo de chegar até o final do jogo.
 
 # 🚀Funções do Aplicativo
 ```yaml
-- Alternação entre modo escuro e claro
-- Tela Inicial (Iniciar + Instruções + Créditos)
+- Tela Inicial (Iniciar + Instruções + Tela de Derrota)
 - 🏆👀 
 ```
 # Screenshots do Jogo
